@@ -11,6 +11,20 @@ jobs:
     name: Análisis de calidad de código
     runs-on: ubuntu-latest
 
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_PASSWORD: admin123
+          POSTGRES_DB: bd_grass_sintetico
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -40,9 +54,10 @@ jobs:
         with:
           name: static-analysis-reports
           path: |
-            target/site/pmd/
-            target/site/checkstyle.html
-            target/site/spotbugs.html
+            target/pmd.xml
+            target/cpd.xml
+            target/checkstyle-result.xml
+            target/spotbugsXml.xml
             target/site/jacoco/
-            target/sonar/
+            target/sonar/report-task.txt
           retention-days: 30
