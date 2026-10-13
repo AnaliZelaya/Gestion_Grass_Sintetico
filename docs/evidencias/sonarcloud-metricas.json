@@ -12,10 +12,6 @@
         "value":  "52"
     },
     {
-        "metric":  "cognitive_complexity",
-        "value":  "325"
-    },
-    {
         "metric":  "complexity",
         "value":  "676"
     },
@@ -25,39 +21,19 @@
     },
     {
         "metric":  "duplicated_lines_density",
-        "value":  "5.5"
-    },
-    {
-        "metric":  "files",
-        "value":  "72"
-    },
-    {
-        "metric":  "functions",
-        "value":  "476"
-    },
-    {
-        "metric":  "lines_to_cover",
-        "value":  "1459"
+        "value":  "5.4"
     },
     {
         "metric":  "ncloc",
-        "value":  "3440"
+        "value":  "3499"
     },
     {
         "metric":  "reliability_rating",
         "value":  "4.0"
     },
     {
-        "metric":  "security_hotspots",
-        "value":  "0"
-    },
-    {
         "metric":  "security_rating",
         "value":  "5.0"
-    },
-    {
-        "metric":  "sqale_debt_ratio",
-        "value":  "0.3"
     },
     {
         "metric":  "sqale_index",
@@ -66,18 +42,6 @@
     {
         "metric":  "sqale_rating",
         "value":  "1.0"
-    },
-    {
-        "metric":  "statements",
-        "value":  "1294"
-    },
-    {
-        "metric":  "tests",
-        "value":  "1"
-    },
-    {
-        "metric":  "uncovered_lines",
-        "value":  "1368"
     },
     {
         "metric":  "vulnerabilities",
