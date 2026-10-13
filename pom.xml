@@ -27,7 +27,20 @@
 	</scm>
 	<properties>
 		<java.version>17</java.version>
+		<lombok.version>1.18.42</lombok.version>
 		<maven-resources-plugin.version>3.1.0</maven-resources-plugin.version>
+		<pmd.plugin.version>3.28.0</pmd.plugin.version>
+		<checkstyle.plugin.version>3.6.0</checkstyle.plugin.version>
+		<spotbugs.plugin.version>4.10.5.0</spotbugs.plugin.version>
+		<spotbugs.version>4.9.6</spotbugs.version>
+		<jacoco.plugin.version>0.8.13</jacoco.plugin.version>
+		<sonar.maven.plugin.version>3.9.1.2184</sonar.maven.plugin.version>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<sonar.organization>analizelaya</sonar.organization>
+		<sonar.projectKey>AnaliZelaya_Gestion_Grass_Sintetico</sonar.projectKey>
+		<sonar.projectName>Gestion Grass Sintetico - Backend</sonar.projectName>
+		<sonar.coverage.jacocoXmlPath>target/site/jacoco/jacoco.xml</sonar.coverage.jacocoXmlPath>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -128,6 +141,7 @@
 								<path>
 									<groupId>org.projectlombok</groupId>
 									<artifactId>lombok</artifactId>
+									<version>${lombok.version}</version>
 								</path>
 							</annotationProcessorPaths>
 						</configuration>
@@ -143,9 +157,105 @@
 								<path>
 									<groupId>org.projectlombok</groupId>
 									<artifactId>lombok</artifactId>
+									<version>${lombok.version}</version>
 								</path>
 							</annotationProcessorPaths>
 						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.sonarsource.scanner.maven</groupId>
+				<artifactId>sonar-maven-plugin</artifactId>
+				<version>${sonar.maven.plugin.version}</version>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-pmd-plugin</artifactId>
+				<version>${pmd.plugin.version}</version>
+				<configuration>
+					<printFailingErrors>true</printFailingErrors>
+					<failOnViolation>false</failOnViolation>
+					<failurePriority>1</failurePriority>
+					<includeTests>false</includeTests>
+					<targetJdk>${java.version}</targetJdk>
+					<rulesets>
+						<ruleset>/category/java/bestpractices.xml</ruleset>
+						<ruleset>/category/java/design.xml</ruleset>
+						<ruleset>/category/java/multithreading.xml</ruleset>
+						<ruleset>/category/java/errorprone.xml</ruleset>
+					</rulesets>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>pmd</goal>
+							<goal>cpd</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-checkstyle-plugin</artifactId>
+				<version>${checkstyle.plugin.version}</version>
+				<configuration>
+					<configLocation>config/checkstyle/checkstyle.xml</configLocation>
+					<violationSeverity>warning</violationSeverity>
+					<failOnViolation>false</failOnViolation>
+					<includeTestSourceDirectory>false</includeTestSourceDirectory>
+					<suppressionsLocation>config/checkstyle/suppressions.xml</suppressionsLocation>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>checkstyle</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>com.github.spotbugs</groupId>
+				<artifactId>spotbugs-maven-plugin</artifactId>
+				<version>${spotbugs.plugin.version}</version>
+				<configuration>
+					<effort>Max</effort>
+					<threshold>Low</threshold>
+					<failOnError>false</failOnError>
+					<xmlOutput>true</xmlOutput>
+					<plugins>
+						<plugin>
+							<groupId>com.h3xstream.findsecbugs</groupId>
+							<artifactId>findsecbugs-plugin</artifactId>
+							<version>1.13.0</version>
+						</plugin>
+					</plugins>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>check</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.jacoco</groupId>
+				<artifactId>jacoco-maven-plugin</artifactId>
+				<version>${jacoco.plugin.version}</version>
+				<executions>
+					<execution>
+						<id>prepare-agent</id>
+						<goals>
+							<goal>prepare-agent</goal>
+						</goals>
+					</execution>
+					<execution>
+						<id>report</id>
+						<phase>test</phase>
+						<goals>
+							<goal>report</goal>
+						</goals>
 					</execution>
 				</executions>
 			</plugin>

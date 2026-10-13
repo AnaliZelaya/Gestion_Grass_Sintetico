@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd xmlns="https://pmd-code.org/schema/cpd-report"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         pmdVersion="7.17.0"
+         timestamp="2026-10-12T17:56:02.4661785-05:00"
+         version="1.0.0"
+         xsi:schemaLocation="https://pmd-code.org/schema/cpd-report https://pmd.github.io/schema/cpd-report_1_0_0.xsd">
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\GrassBackendApplication.java"
+         totalNumberOfTokens="51"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\config\SecurityConfig.java"
+         totalNumberOfTokens="218"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\controller\AuthController.java"
+         totalNumberOfTokens="897"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\controller\CajaController.java"
+         totalNumberOfTokens="112"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\controller\CanchaController.java"
+         totalNumberOfTokens="291"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\controller\ConsultaController.java"
+         totalNumberOfTokens="272"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\controller\DashboardController.java"
+         totalNumberOfTokens="62"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\controller\DataSeederController.java"
+         totalNumberOfTokens="2477"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\controller\ProductoController.java"
+         totalNumberOfTokens="623"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\controller\ReporteExcelController.java"
+         totalNumberOfTokens="113"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\controller\ReservaController.java"
+         totalNumberOfTokens="318"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\controller\RolController.java"
+         totalNumberOfTokens="79"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\controller\SedeController.java"
+         totalNumberOfTokens="247"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\controller\TurnoCajaController.java"
+         totalNumberOfTokens="222"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\controller\UsuarioController.java"
+         totalNumberOfTokens="664"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\controller\VentaController.java"
+         totalNumberOfTokens="71"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\dto\AbrirTurnoRequest.java"
+         totalNumberOfTokens="83"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\dto\ClienteFidelizacionDTO.java"
+         totalNumberOfTokens="219"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\dto\DetalleVentaDTO.java"
+         totalNumberOfTokens="141"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\dto\FidelizacionDTO.java"
+         totalNumberOfTokens="180"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\dto\LoginRequest.java"
+         totalNumberOfTokens="57"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\dto\ReservaResponseDTO.java"
+         totalNumberOfTokens="512"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\dto\TurnoCajaResponseDTO.java"
+         totalNumberOfTokens="271"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\dto\VentaResponseDTO.java"
+         totalNumberOfTokens="228"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\Caja.java"
+         totalNumberOfTokens="177"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\Cancha.java"
+         totalNumberOfTokens="446"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\DetalleVenta.java"
+         totalNumberOfTokens="201"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\MovimientoCaja.java"
+         totalNumberOfTokens="369"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\PagoReserva.java"
+         totalNumberOfTokens="266"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\Producto.java"
+         totalNumberOfTokens="272"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\Reserva.java"
+         totalNumberOfTokens="459"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\Rol.java"
+         totalNumberOfTokens="140"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\Sede.java"
+         totalNumberOfTokens="270"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\TurnoCaja.java"
+         totalNumberOfTokens="409"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\Usuario.java"
+         totalNumberOfTokens="388"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\Venta.java"
+         totalNumberOfTokens="290"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\exception\ApiErrorResponse.java"
+         totalNumberOfTokens="71"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\exception\GlobalExceptionHandler.java"
+         totalNumberOfTokens="163"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\mapper\ReservaMapper.java"
+         totalNumberOfTokens="314"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\mapper\TurnoCajaMapper.java"
+         totalNumberOfTokens="202"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\mapper\VentaMapper.java"
+         totalNumberOfTokens="273"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\repository\CajaRepository.java"
+         totalNumberOfTokens="26"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\repository\CanchaRepository.java"
+         totalNumberOfTokens="60"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\repository\MovimientoCajaRepository.java"
+         totalNumberOfTokens="23"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\repository\PagoReservaRepository.java"
+         totalNumberOfTokens="23"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\repository\ProductoRepository.java"
+         totalNumberOfTokens="30"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\repository\ReservaRepository.java"
+         totalNumberOfTokens="162"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\repository\RolRepository.java"
+         totalNumberOfTokens="20"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\repository\SedeRepository.java"
+         totalNumberOfTokens="23"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\repository\TurnoCajaRepository.java"
+         totalNumberOfTokens="47"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\repository\UsuarioRepository.java"
+         totalNumberOfTokens="32"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\repository\VentaRepository.java"
+         totalNumberOfTokens="31"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\scheduler\ReservaScheduler.java"
+         totalNumberOfTokens="248"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\security\JwtUtil.java"
+         totalNumberOfTokens="90"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\security\SedeContextHolder.java"
+         totalNumberOfTokens="63"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\security\SedeFilter.java"
+         totalNumberOfTokens="98"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\service\CanchaService.java"
+         totalNumberOfTokens="52"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\service\CanchaServiceImpl.java"
+         totalNumberOfTokens="274"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\service\CloudinaryService.java"
+         totalNumberOfTokens="91"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\service\DashboardService.java"
+         totalNumberOfTokens="760"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\service\ReporteExcelService.java"
+         totalNumberOfTokens="681"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\service\ReservaService.java"
+         totalNumberOfTokens="85"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\service\ReservaServiceImpl.java"
+         totalNumberOfTokens="1763"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\service\RolService.java"
+         totalNumberOfTokens="30"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\service\RolServiceImpl.java"
+         totalNumberOfTokens="90"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\service\TurnoCajaService.java"
+         totalNumberOfTokens="36"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\service\TurnoCajaServiceImpl.java"
+         totalNumberOfTokens="474"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\service\UsuarioService.java"
+         totalNumberOfTokens="33"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\service\UsuarioServiceImpl.java"
+         totalNumberOfTokens="194"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\service\VentaService.java"
+         totalNumberOfTokens="18"/>
+   <file path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\service\VentaServiceImpl.java"
+         totalNumberOfTokens="497"/>
+   <duplication lines="30" tokens="175">
+      <file begintoken="369"
+            column="13"
+            endcolumn="10"
+            endline="72"
+            endtoken="543"
+            line="43"
+            path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\controller\AuthController.java"/>
+      <file begintoken="706"
+            column="13"
+            endcolumn="10"
+            endline="134"
+            endtoken="880"
+            line="107"
+            path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\controller\AuthController.java"/>
+      <codefragment><![CDATA[            String rolTexto;
+            if (usuario.getIdRol() == 3) {
+                rolTexto = "SUPER_ADMIN"; // El dueño
+            } else if (usuario.getIdRol() == 1) {
+                rolTexto = "ADMIN";       // Administrador de Sede
+            } else {
+                rolTexto = "CLIENTE";     // Clientes (Rol 2 o 4)
+            }
+            
+            // 3. Respuesta exitosa para React
+            Map<String, Object> response = new HashMap<>();
+            String tokenReal = jwtUtil.generateToken(usuario.getEmail(), usuario.getIdRol());
+            
+            response.put("token", tokenReal);
+            response.put("mensaje", "¡Bienvenido " + usuario.getNombre() + "!");
+            response.put("rol", rolTexto); 
+            response.put("idUsuario", usuario.getIdUsuario()); 
+            
+            // Enviamos los permisos guardados en la BD hacia React
+            response.put("permisos", usuario.getPermisos()); 
+            
+            // LÓGICA MULTI-SEDE: Enviamos a React a qué sede pertenece este usuario
+            if (usuario.getSede() != null) {
+                response.put("idSede", usuario.getSede().getIdSede());
+            } else {
+                response.put("idSede", null); // En caso de que sea el Super Admin Global
+            }
+            
+            return ResponseEntity.ok(response);
+        } else {
+]]></codefragment>
+   </duplication>
+   <duplication lines="24" tokens="164">
+      <file begintoken="7544"
+            column="76"
+            endcolumn="18"
+            endline="72"
+            endtoken="7707"
+            line="49"
+            path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\dto\ReservaResponseDTO.java"/>
+      <file begintoken="10442"
+            column="97"
+            endcolumn="18"
+            endline="91"
+            endtoken="10605"
+            line="67"
+            path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\Reserva.java"/>
+      <codefragment><![CDATA[    public void setIdUsuario(UUID idUsuario) { this.idUsuario = idUsuario; }
+
+    public LocalDateTime getHoraInicio() { return horaInicio; }
+    public void setHoraInicio(LocalDateTime horaInicio) { this.horaInicio = horaInicio; }
+
+    public LocalDateTime getHoraFin() { return horaFin; }
+    public void setHoraFin(LocalDateTime horaFin) { this.horaFin = horaFin; }
+
+    public String getEstado() { return estado; }
+    public void setEstado(String estado) { this.estado = estado; }
+
+    public BigDecimal getTotal() { return total; }
+    public void setTotal(BigDecimal total) { this.total = total; }
+
+    public BigDecimal getAdelanto() { return adelanto; }
+    public void setAdelanto(BigDecimal adelanto) { this.adelanto = adelanto; }
+
+    public String getNombreCliente() { return nombreCliente; }
+    public void setNombreCliente(String nombreCliente) { this.nombreCliente = nombreCliente; }
+
+    public String getTelefonoCliente() { return telefonoCliente; }
+    public void setTelefonoCliente(String telefonoCliente) { this.telefonoCliente = telefonoCliente; }
+
+    public String getNombreCancha() { return nombreCancha; }
+]]></codefragment>
+   </duplication>
+   <duplication lines="22" tokens="162">
+      <file begintoken="7993"
+            column="68"
+            endcolumn="67"
+            endline="46"
+            endtoken="8154"
+            line="25"
+            path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\dto\TurnoCajaResponseDTO.java"/>
+      <file begintoken="11287"
+            column="5"
+            endcolumn="6"
+            endline="126"
+            endtoken="11448"
+            line="70"
+            path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\TurnoCaja.java"/>
+      <codefragment><![CDATA[    public void setIdTurno(UUID idTurno) { this.idTurno = idTurno; }
+
+    public LocalDateTime getFechaApertura() { return fechaApertura; }
+    public void setFechaApertura(LocalDateTime fechaApertura) { this.fechaApertura = fechaApertura; }
+
+    public LocalDateTime getFechaCierre() { return fechaCierre; }
+    public void setFechaCierre(LocalDateTime fechaCierre) { this.fechaCierre = fechaCierre; }
+
+    public BigDecimal getMontoInicial() { return montoInicial; }
+    public void setMontoInicial(BigDecimal montoInicial) { this.montoInicial = montoInicial; }
+
+    public BigDecimal getMontoCalculado() { return montoCalculado; }
+    public void setMontoCalculado(BigDecimal montoCalculado) { this.montoCalculado = montoCalculado; }
+
+    public BigDecimal getMontoReal() { return montoReal; }
+    public void setMontoReal(BigDecimal montoReal) { this.montoReal = montoReal; }
+
+    public BigDecimal getDiferencia() { return diferencia; }
+    public void setDiferencia(BigDecimal diferencia) { this.diferencia = diferencia; }
+
+    public String getEstado() { return estado; }
+    public void setEstado(String estado) { this.estado = estado; }
+]]></codefragment>
+   </duplication>
+   <duplication lines="16" tokens="110">
+      <file begintoken="16697"
+            column="9"
+            endcolumn="57"
+            endline="174"
+            endtoken="16806"
+            line="159"
+            path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\service\ReservaServiceImpl.java"/>
+      <file begintoken="17084"
+            column="13"
+            endcolumn="61"
+            endline="241"
+            endtoken="17193"
+            line="226"
+            path="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\service\ReservaServiceImpl.java"/>
+      <codefragment><![CDATA[        String sedeActiva = SedeContextHolder.getSede();
+        Long idSede = null;
+        
+        if (sedeActiva == null || "GLOBAL".equals(sedeActiva)) {
+            if (reserva.getCancha() != null && reserva.getCancha().getSede() != null) {
+            	idSede = reserva.getCancha().getSede().getIdSede().longValue();
+            } else {
+                throw new RuntimeException("Error: La cancha no tiene una sede válida asignada.");
+            }
+        } else {
+            idSede = Long.parseLong(sedeActiva);
+        }
+
+        // 3. Buscar caja abierta OBLIGATORIA
+        TurnoCaja turnoActivo = turnoCajaRepository.findFirstByEstadoIgnoreCaseAndCajaSedeIdSede("ABIERTO", idSede)
+                .orElseThrow(() -> new RuntimeException("¡Atención! No hay ninguna caja abierta en la sede de esta cancha. El administrador local debe abrir caja primero para poder registrar contablemente tu cobro."));
+]]></codefragment>
+   </duplication>
+</pmd-cpd>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.3">
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\config\SecurityConfig.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\controller\AuthController.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\controller\CajaController.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\controller\CanchaController.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\controller\ConsultaController.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\controller\DashboardController.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\controller\DataSeederController.java">
+<error line="17" column="1" severity="warning" message="La complejidad Fan-Out de clase es 30 (máxima permitida es 25)." source="com.puppycrawl.tools.checkstyle.checks.metrics.ClassFanOutComplexityCheck"/>
+<error line="56" column="5" severity="warning" message="El tamaño del método generarSoloReservas es 172 líneas (máximas permitidas 150)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="56" column="5" severity="warning" message="La complejidad NPath es 4,686 (máxima permitida es 250)." source="com.puppycrawl.tools.checkstyle.checks.metrics.NPathComplexityCheck"/>
+<error line="56" column="5" severity="error" message="La complejidad ciclomática es 20 (máxima permitida es 15)." source="com.puppycrawl.tools.checkstyle.checks.metrics.CyclomaticComplexityCheck"/>
+<error line="143" severity="warning" message="La línea es mayor de 140 caracteres (encontrado 158)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="234" column="5" severity="warning" message="La complejidad NPath es 192,027 (máxima permitida es 250)." source="com.puppycrawl.tools.checkstyle.checks.metrics.NPathComplexityCheck"/>
+<error line="234" column="5" severity="error" message="La complejidad ciclomática es 32 (máxima permitida es 15)." source="com.puppycrawl.tools.checkstyle.checks.metrics.CyclomaticComplexityCheck"/>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\controller\ProductoController.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\controller\ReporteExcelController.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\controller\ReservaController.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\controller\RolController.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\controller\SedeController.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\controller\TurnoCajaController.java">
+<error line="30" severity="warning" message="La línea es mayor de 140 caracteres (encontrado 155)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\controller\UsuarioController.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\controller\VentaController.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\dto\AbrirTurnoRequest.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\dto\ClienteFidelizacionDTO.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\dto\DetalleVentaDTO.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\dto\FidelizacionDTO.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\dto\LoginRequest.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\dto\ReservaResponseDTO.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\dto\TurnoCajaResponseDTO.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\dto\VentaResponseDTO.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\Caja.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\Cancha.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\DetalleVenta.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\MovimientoCaja.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\PagoReserva.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\Producto.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\Reserva.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\Rol.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\Sede.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\TurnoCaja.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\Usuario.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\Venta.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\exception\ApiErrorResponse.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\exception\GlobalExceptionHandler.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\GrassBackendApplication.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\mapper\ReservaMapper.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\mapper\TurnoCajaMapper.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\mapper\VentaMapper.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\repository\CajaRepository.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\repository\CanchaRepository.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\repository\MovimientoCajaRepository.java">
+<error line="13" column="1" severity="warning" message="La línea contiene un carácter de tabulación." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\repository\PagoReservaRepository.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\repository\ProductoRepository.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\repository\ReservaRepository.java">
+<error line="27" severity="warning" message="La línea es mayor de 140 caracteres (encontrado 186)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\repository\RolRepository.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\repository\SedeRepository.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\repository\TurnoCajaRepository.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\repository\UsuarioRepository.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\repository\VentaRepository.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\scheduler\ReservaScheduler.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\security\JwtUtil.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\security\SedeContextHolder.java">
+<error line="3" column="1" severity="warning" message="Clases de servicios públicos no deben tener un constructor público o por defecto." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\security\SedeFilter.java">
+<error line="15" column="1" severity="warning" message="La línea contiene un carácter de tabulación." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="16" column="1" severity="warning" message="La línea contiene un carácter de tabulación." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="17" column="1" severity="warning" message="La línea contiene un carácter de tabulación." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="18" column="1" severity="warning" message="La línea contiene un carácter de tabulación." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="19" column="1" severity="warning" message="La línea contiene un carácter de tabulación." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="20" column="1" severity="warning" message="La línea contiene un carácter de tabulación." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="21" column="1" severity="warning" message="La línea contiene un carácter de tabulación." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="22" column="1" severity="warning" message="La línea contiene un carácter de tabulación." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="23" column="1" severity="warning" message="La línea contiene un carácter de tabulación." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="24" column="1" severity="warning" message="La línea contiene un carácter de tabulación." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="25" column="1" severity="warning" message="La línea contiene un carácter de tabulación." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="26" column="1" severity="warning" message="La línea contiene un carácter de tabulación." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="27" column="1" severity="warning" message="La línea contiene un carácter de tabulación." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="29" column="1" severity="warning" message="La línea contiene un carácter de tabulación." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="30" column="1" severity="warning" message="La línea contiene un carácter de tabulación." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="31" column="1" severity="warning" message="La línea contiene un carácter de tabulación." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="32" column="1" severity="warning" message="La línea contiene un carácter de tabulación." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="33" column="1" severity="warning" message="La línea contiene un carácter de tabulación." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\service\CanchaService.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\service\CanchaServiceImpl.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\service\CloudinaryService.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\service\DashboardService.java">
+<error line="28" column="5" severity="warning" message="La complejidad NPath es 7,056 (máxima permitida es 250)." source="com.puppycrawl.tools.checkstyle.checks.metrics.NPathComplexityCheck"/>
+<error line="28" column="5" severity="error" message="La complejidad ciclomática es 34 (máxima permitida es 15)." source="com.puppycrawl.tools.checkstyle.checks.metrics.CyclomaticComplexityCheck"/>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\service\ReporteExcelService.java">
+<error line="92" column="81" severity="warning" message="Sólo una declaración por línea permitido." source="com.puppycrawl.tools.checkstyle.checks.coding.OneStatementPerLineCheck"/>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\service\ReservaService.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\service\ReservaServiceImpl.java">
+<error line="164" column="13" severity="warning" message="La línea contiene un carácter de tabulación." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="174" severity="warning" message="La línea es mayor de 140 caracteres (encontrado 218)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="182" severity="warning" message="La línea es mayor de 140 caracteres (encontrado 155)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="241" severity="warning" message="La línea es mayor de 140 caracteres (encontrado 163)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="277" column="5" severity="warning" message="La complejidad NPath es 264 (máxima permitida es 250)." source="com.puppycrawl.tools.checkstyle.checks.metrics.NPathComplexityCheck"/>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\service\RolService.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\service\RolServiceImpl.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\service\TurnoCajaService.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\service\TurnoCajaServiceImpl.java">
+<error line="48" severity="warning" message="La línea es mayor de 140 caracteres (encontrado 143)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\service\UsuarioService.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\service\UsuarioServiceImpl.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\service\VentaService.java">
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\service\VentaServiceImpl.java">
+<error line="80" severity="warning" message="La línea es mayor de 140 caracteres (encontrado 185)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="113" severity="warning" message="La línea es mayor de 140 caracteres (encontrado 158)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\resources\application.properties">
+</file>
+</checkstyle>

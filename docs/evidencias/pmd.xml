@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.17.0" timestamp="2026-10-12T17:37:29.791">
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\config\SecurityConfig.java">
+<violation beginline="33" endline="33" begincolumn="71" endcolumn="87" rule="SignatureDeclareThrowsException" ruleset="Design" package="com.unas.grassbackend.config" class="SecurityConfig" method="securityFilterChain" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#signaturedeclarethrowsexception" priority="3">
+A method/constructor should not explicitly throw java.lang.Exception
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\controller\AuthController.java">
+<violation beginline="44" endline="44" begincolumn="39" endcolumn="40" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="com.unas.grassbackend.controller" class="AuthController" method="login" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using literals such as 3 in if statements
+</violation>
+<violation beginline="46" endline="46" begincolumn="46" endcolumn="47" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="com.unas.grassbackend.controller" class="AuthController" method="login" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using literals such as 1 in if statements
+</violation>
+<violation beginline="53" endline="53" begincolumn="33" endcolumn="59" rule="UseConcurrentHashMap" ruleset="Multithreading" package="com.unas.grassbackend.controller" class="AuthController" method="login" variable="response" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_multithreading.html#useconcurrenthashmap" priority="3">
+If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+</violation>
+<violation beginline="66" endline="66" begincolumn="30" endcolumn="38" rule="AvoidDuplicateLiterals" ruleset="Error Prone" package="com.unas.grassbackend.controller" class="AuthController" method="login" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "idSede" appears 4 times in this file; the first occurrence is on line 66
+</violation>
+<violation beginline="66" endline="66" begincolumn="40" endcolumn="57" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.controller" class="AuthController" method="login" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getSede` on foreign value `usuario` (degree 1)
+</violation>
+<violation beginline="108" endline="108" begincolumn="39" endcolumn="40" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="com.unas.grassbackend.controller" class="AuthController" method="loginWithGoogle" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using literals such as 3 in if statements
+</violation>
+<violation beginline="110" endline="110" begincolumn="46" endcolumn="47" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="com.unas.grassbackend.controller" class="AuthController" method="loginWithGoogle" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using literals such as 1 in if statements
+</violation>
+<violation beginline="117" endline="117" begincolumn="33" endcolumn="59" rule="UseConcurrentHashMap" ruleset="Multithreading" package="com.unas.grassbackend.controller" class="AuthController" method="loginWithGoogle" variable="response" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_multithreading.html#useconcurrenthashmap" priority="3">
+If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+</violation>
+<violation beginline="127" endline="127" begincolumn="40" endcolumn="57" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.controller" class="AuthController" method="loginWithGoogle" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getSede` on foreign value `usuario` (degree 1)
+</violation>
+<violation beginline="134" endline="134" begincolumn="18" endcolumn="27" rule="AvoidCatchingGenericException" ruleset="Design" package="com.unas.grassbackend.controller" class="AuthController" method="loginWithGoogle" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#avoidcatchinggenericexception" priority="3">
+Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+</violation>
+<violation beginline="166" endline="166" begincolumn="18" endcolumn="27" rule="AvoidCatchingGenericException" ruleset="Design" package="com.unas.grassbackend.controller" class="AuthController" method="registrarCliente" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#avoidcatchinggenericexception" priority="3">
+Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\controller\ConsultaController.java">
+<violation beginline="12" endline="12" begincolumn="26" endcolumn="41" rule="FinalFieldCouldBeStatic" ruleset="Design" package="com.unas.grassbackend.controller" class="ConsultaController" variable="TOKEN_DECOLECTA" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#finalfieldcouldbestatic" priority="3">
+The final field TOKEN_DECOLECTA could be made static
+</violation>
+<violation beginline="20" endline="20" begincolumn="13" endcolumn="24" rule="LooseCoupling" ruleset="Best Practices" package="com.unas.grassbackend.controller" class="ConsultaController" method="consultarDNI" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'HttpHeaders'; use the interface instead
+</violation>
+<violation beginline="28" endline="28" begincolumn="18" endcolumn="27" rule="AvoidCatchingGenericException" ruleset="Design" package="com.unas.grassbackend.controller" class="ConsultaController" method="consultarDNI" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#avoidcatchinggenericexception" priority="3">
+Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+</violation>
+<violation beginline="39" endline="39" begincolumn="13" endcolumn="24" rule="LooseCoupling" ruleset="Best Practices" package="com.unas.grassbackend.controller" class="ConsultaController" method="consultarRUC" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'HttpHeaders'; use the interface instead
+</violation>
+<violation beginline="47" endline="47" begincolumn="18" endcolumn="27" rule="AvoidCatchingGenericException" ruleset="Design" package="com.unas.grassbackend.controller" class="ConsultaController" method="consultarRUC" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#avoidcatchinggenericexception" priority="3">
+Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\controller\DataSeederController.java">
+<violation beginline="1" endline="381" begincolumn="1" endcolumn="2" rule="CouplingBetweenObjects" ruleset="Design" package="com.unas.grassbackend.controller" class="DataSeederController" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#couplingbetweenobjects" priority="3">
+A value of 32 may denote a high amount of coupling within the class (threshold: 20)
+</violation>
+<violation beginline="58" endline="58" begincolumn="30" endcolumn="49" rule="NcssCount" ruleset="Design" package="com.unas.grassbackend.controller" class="DataSeederController" method="generarSoloReservas" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'generarSoloReservas()' has a NCSS line count of 122.
+</violation>
+<violation beginline="58" endline="58" begincolumn="30" endcolumn="49" rule="CognitiveComplexity" ruleset="Design" package="com.unas.grassbackend.controller" class="DataSeederController" method="generarSoloReservas" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cognitivecomplexity" priority="3">
+The method 'generarSoloReservas()' has a cognitive complexity of 45, current threshold is 15
+</violation>
+<violation beginline="58" endline="58" begincolumn="30" endcolumn="49" rule="CyclomaticComplexity" ruleset="Design" package="com.unas.grassbackend.controller" class="DataSeederController" method="generarSoloReservas" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'generarSoloReservas()' has a cyclomatic complexity of 18.
+</violation>
+<violation beginline="58" endline="58" begincolumn="30" endcolumn="49" rule="NPathComplexity" ruleset="Design" package="com.unas.grassbackend.controller" class="DataSeederController" method="generarSoloReservas" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#npathcomplexity" priority="3">
+The method 'generarSoloReservas()' has an NPath complexity of 420, current threshold is 200
+</violation>
+<violation beginline="78" endline="78" begincolumn="63" endcolumn="90" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="com.unas.grassbackend.controller" class="DataSeederController" method="generarSoloReservas" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="213" endline="213" begincolumn="45" endcolumn="87" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.controller" class="DataSeederController" method="generarSoloReservas" variable="montoCalculado" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `add` on foreign value `turno.getMontoInicial()` (degree 2)
+</violation>
+<violation beginline="213" endline="213" begincolumn="45" endcolumn="68" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.controller" class="DataSeederController" method="generarSoloReservas" variable="montoCalculado" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getMontoInicial` on foreign value `turno` (degree 1)
+</violation>
+<violation beginline="236" endline="236" begincolumn="30" endcolumn="47" rule="NcssCount" ruleset="Design" package="com.unas.grassbackend.controller" class="DataSeederController" method="generarSoloVentas" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'generarSoloVentas()' has a NCSS line count of 112.
+</violation>
+<violation beginline="236" endline="236" begincolumn="30" endcolumn="47" rule="CognitiveComplexity" ruleset="Design" package="com.unas.grassbackend.controller" class="DataSeederController" method="generarSoloVentas" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cognitivecomplexity" priority="3">
+The method 'generarSoloVentas()' has a cognitive complexity of 59, current threshold is 15
+</violation>
+<violation beginline="236" endline="236" begincolumn="30" endcolumn="47" rule="CyclomaticComplexity" ruleset="Design" package="com.unas.grassbackend.controller" class="DataSeederController" method="generarSoloVentas" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'generarSoloVentas()' has a cyclomatic complexity of 30.
+</violation>
+<violation beginline="236" endline="236" begincolumn="30" endcolumn="47" rule="NPathComplexity" ruleset="Design" package="com.unas.grassbackend.controller" class="DataSeederController" method="generarSoloVentas" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#npathcomplexity" priority="3">
+The method 'generarSoloVentas()' has an NPath complexity of 35211, current threshold is 200
+</violation>
+<violation beginline="246" endline="246" begincolumn="71" endcolumn="85" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.controller" class="DataSeederController" method="generarSoloVentas" variable="montoRestar" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getMonto` on foreign value `mov` (degree 1)
+</violation>
+<violation beginline="247" endline="247" begincolumn="45" endcolumn="70" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.controller" class="DataSeederController" method="generarSoloVentas" variable="calcActual" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getMontoCalculado` on foreign value `turno` (degree 2)
+</violation>
+<violation beginline="247" endline="247" begincolumn="81" endcolumn="106" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.controller" class="DataSeederController" method="generarSoloVentas" variable="calcActual" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getMontoCalculado` on foreign value `turno` (degree 2)
+</violation>
+<violation beginline="248" endline="248" begincolumn="45" endcolumn="65" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.controller" class="DataSeederController" method="generarSoloVentas" variable="realActual" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getMontoReal` on foreign value `turno` (degree 2)
+</violation>
+<violation beginline="248" endline="248" begincolumn="76" endcolumn="96" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.controller" class="DataSeederController" method="generarSoloVentas" variable="realActual" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getMontoReal` on foreign value `turno` (degree 2)
+</violation>
+<violation beginline="250" endline="250" begincolumn="21" endcolumn="78" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.controller" class="DataSeederController" method="generarSoloVentas" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `setMontoCalculado` on foreign value `turno` (degree 2)
+</violation>
+<violation beginline="251" endline="251" begincolumn="21" endcolumn="73" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.controller" class="DataSeederController" method="generarSoloVentas" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `setMontoReal` on foreign value `turno` (degree 2)
+</violation>
+<violation beginline="262" endline="262" begincolumn="26" endcolumn="53" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="com.unas.grassbackend.controller" class="DataSeederController" method="generarSoloVentas" variable="nom" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="277" endline="277" begincolumn="30" endcolumn="51" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.controller" class="DataSeederController" method="generarSoloVentas" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getSede` on foreign value `t.getCaja()` (degree 1)
+</violation>
+<violation beginline="302" endline="302" begincolumn="37" endcolumn="67" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="com.unas.grassbackend.controller" class="DataSeederController" method="generarSoloVentas" variable="nombreProd" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="316" endline="316" begincolumn="37" endcolumn="70" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="com.unas.grassbackend.controller" class="DataSeederController" method="generarSoloVentas" variable="docCliente" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="321" endline="321" begincolumn="31" endcolumn="46" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.controller" class="DataSeederController" method="generarSoloVentas" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getCaja` on foreign value `turno` (degree 1)
+</violation>
+<violation beginline="360" endline="360" begincolumn="20" endcolumn="53" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="com.unas.grassbackend.controller" class="DataSeederController" method="generarSoloVentas" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="364" endline="364" begincolumn="77" endcolumn="102" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.controller" class="DataSeederController" method="generarSoloVentas" variable="montoCalActual" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getMontoCalculado` on foreign value `turno` (degree 1)
+</violation>
+<violation beginline="365" endline="365" begincolumn="73" endcolumn="93" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.controller" class="DataSeederController" method="generarSoloVentas" variable="montoRealActual" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getMontoReal` on foreign value `turno` (degree 1)
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\controller\ProductoController.java">
+<violation beginline="27" endline="27" begincolumn="38" endcolumn="67" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="com.unas.grassbackend.controller" class="ProductoController" method="listarProductos" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="74" endline="74" begincolumn="18" endcolumn="27" rule="AvoidCatchingGenericException" ruleset="Design" package="com.unas.grassbackend.controller" class="ProductoController" method="crearProducto" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#avoidcatchinggenericexception" priority="3">
+Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+</violation>
+<violation beginline="102" endline="102" begincolumn="18" endcolumn="27" rule="AvoidCatchingGenericException" ruleset="Design" package="com.unas.grassbackend.controller" class="ProductoController" method="aumentarStock" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#avoidcatchinggenericexception" priority="3">
+Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\controller\ReporteExcelController.java">
+<violation beginline="28" endline="28" begincolumn="9" endcolumn="20" rule="LooseCoupling" ruleset="Best Practices" package="com.unas.grassbackend.controller" class="ReporteExcelController" method="exportarExcel" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'HttpHeaders'; use the interface instead
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\controller\UsuarioController.java">
+<violation beginline="56" endline="56" begincolumn="37" endcolumn="47" rule="AvoidDuplicateLiterals" ruleset="Error Prone" package="com.unas.grassbackend.controller" class="UsuarioController" method="registrarPersonal" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "permisos" appears 4 times in this file; the first occurrence is on line 56
+</violation>
+<violation beginline="69" endline="69" begincolumn="18" endcolumn="27" rule="AvoidCatchingGenericException" ruleset="Design" package="com.unas.grassbackend.controller" class="UsuarioController" method="registrarPersonal" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#avoidcatchinggenericexception" priority="3">
+Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+</violation>
+<violation beginline="105" endline="105" begincolumn="18" endcolumn="27" rule="AvoidCatchingGenericException" ruleset="Design" package="com.unas.grassbackend.controller" class="UsuarioController" method="actualizarPersonal" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#avoidcatchinggenericexception" priority="3">
+Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\dto\AbrirTurnoRequest.java">
+<violation beginline="6" endline="6" begincolumn="8" endcolumn="13" rule="DataClass" ruleset="Design" package="com.unas.grassbackend.dto" class="AbrirTurnoRequest" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AbrirTurnoRequest' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=6)
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\dto\ClienteFidelizacionDTO.java">
+<violation beginline="7" endline="7" begincolumn="8" endcolumn="13" rule="DataClass" ruleset="Design" package="com.unas.grassbackend.dto" class="ClienteFidelizacionDTO" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ClienteFidelizacionDTO' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=16, WMC=17)
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\dto\DetalleVentaDTO.java">
+<violation beginline="5" endline="5" begincolumn="8" endcolumn="13" rule="DataClass" ruleset="Design" package="com.unas.grassbackend.dto" class="DetalleVentaDTO" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DetalleVentaDTO' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=11)
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\dto\FidelizacionDTO.java">
+<violation beginline="6" endline="6" begincolumn="8" endcolumn="13" rule="DataClass" ruleset="Design" package="com.unas.grassbackend.dto" class="FidelizacionDTO" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'FidelizacionDTO' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=11)
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\dto\LoginRequest.java">
+<violation beginline="3" endline="3" begincolumn="8" endcolumn="13" rule="DataClass" ruleset="Design" package="com.unas.grassbackend.dto" class="LoginRequest" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'LoginRequest' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\dto\ReservaResponseDTO.java">
+<violation beginline="7" endline="7" begincolumn="8" endcolumn="13" rule="DataClass" ruleset="Design" package="com.unas.grassbackend.dto" class="ReservaResponseDTO" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ReservaResponseDTO' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=32, WMC=33)
+</violation>
+<violation beginline="7" endline="113" begincolumn="33" endcolumn="2" rule="TooManyFields" ruleset="Design" package="com.unas.grassbackend.dto" class="ReservaResponseDTO" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#toomanyfields" priority="3">
+Too many fields
+</violation>
+<violation beginline="94" endline="94" begincolumn="19" endcolumn="24" rule="DataClass" ruleset="Design" package="com.unas.grassbackend.dto" class="CanchaResumenDTO" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CanchaResumenDTO' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=6)
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\dto\TurnoCajaResponseDTO.java">
+<violation beginline="7" endline="7" begincolumn="8" endcolumn="13" rule="DataClass" ruleset="Design" package="com.unas.grassbackend.dto" class="TurnoCajaResponseDTO" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TurnoCajaResponseDTO' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=20, WMC=21)
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\dto\VentaResponseDTO.java">
+<violation beginline="7" endline="7" begincolumn="8" endcolumn="13" rule="DataClass" ruleset="Design" package="com.unas.grassbackend.dto" class="VentaResponseDTO" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'VentaResponseDTO' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=16, WMC=17)
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\Caja.java">
+<violation beginline="9" endline="9" begincolumn="8" endcolumn="13" rule="DataClass" ruleset="Design" package="com.unas.grassbackend.entity" class="Caja" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Caja' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=9)
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\Cancha.java">
+<violation beginline="12" endline="12" begincolumn="8" endcolumn="13" rule="DataClass" ruleset="Design" package="com.unas.grassbackend.entity" class="Cancha" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Cancha' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=22, WMC=22)
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\DetalleVenta.java">
+<violation beginline="9" endline="9" begincolumn="8" endcolumn="13" rule="DataClass" ruleset="Design" package="com.unas.grassbackend.entity" class="DetalleVenta" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'DetalleVenta' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=12, WMC=12)
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\MovimientoCaja.java">
+<violation beginline="10" endline="10" begincolumn="8" endcolumn="13" rule="DataClass" ruleset="Design" package="com.unas.grassbackend.entity" class="MovimientoCaja" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'MovimientoCaja' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=18, WMC=19)
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\PagoReserva.java">
+<violation beginline="10" endline="10" begincolumn="8" endcolumn="13" rule="DataClass" ruleset="Design" package="com.unas.grassbackend.entity" class="PagoReserva" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'PagoReserva' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=12, WMC=13)
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\Producto.java">
+<violation beginline="9" endline="9" begincolumn="8" endcolumn="13" rule="DataClass" ruleset="Design" package="com.unas.grassbackend.entity" class="Producto" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Producto' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=16, WMC=16)
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\Reserva.java">
+<violation beginline="10" endline="10" begincolumn="8" endcolumn="13" rule="DataClass" ruleset="Design" package="com.unas.grassbackend.entity" class="Reserva" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Reserva' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=24, WMC=24)
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\Rol.java">
+<violation beginline="7" endline="7" begincolumn="8" endcolumn="13" rule="DataClass" ruleset="Design" package="com.unas.grassbackend.entity" class="Rol" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Rol' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=6)
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\Sede.java">
+<violation beginline="8" endline="8" begincolumn="8" endcolumn="13" rule="DataClass" ruleset="Design" package="com.unas.grassbackend.entity" class="Sede" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Sede' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=14, WMC=14)
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\TurnoCaja.java">
+<violation beginline="10" endline="10" begincolumn="8" endcolumn="13" rule="DataClass" ruleset="Design" package="com.unas.grassbackend.entity" class="TurnoCaja" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'TurnoCaja' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=20, WMC=21)
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\Usuario.java">
+<violation beginline="12" endline="12" begincolumn="8" endcolumn="13" rule="DataClass" ruleset="Design" package="com.unas.grassbackend.entity" class="Usuario" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Usuario' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=18, WMC=18)
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\entity\Venta.java">
+<violation beginline="10" endline="10" begincolumn="8" endcolumn="13" rule="DataClass" ruleset="Design" package="com.unas.grassbackend.entity" class="Venta" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Venta' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=18, WMC=18)
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\exception\ApiErrorResponse.java">
+<violation beginline="6" endline="6" begincolumn="17" endcolumn="23" rule="ImmutableField" ruleset="Design" package="com.unas.grassbackend.exception" class="ApiErrorResponse" variable="status" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Field 'status' may be declared final
+</violation>
+<violation beginline="7" endline="7" begincolumn="20" endcolumn="27" rule="ImmutableField" ruleset="Design" package="com.unas.grassbackend.exception" class="ApiErrorResponse" variable="message" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Field 'message' may be declared final
+</violation>
+<violation beginline="8" endline="8" begincolumn="27" endcolumn="36" rule="ImmutableField" ruleset="Design" package="com.unas.grassbackend.exception" class="ApiErrorResponse" variable="timestamp" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Field 'timestamp' may be declared final
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\exception\GlobalExceptionHandler.java">
+<violation beginline="35" endline="35" begincolumn="9" endcolumn="29" rule="AvoidPrintStackTrace" ruleset="Best Practices" package="com.unas.grassbackend.exception" class="GlobalExceptionHandler" method="handleGlobalException" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\mapper\ReservaMapper.java">
+<violation beginline="32" endline="32" begincolumn="29" endcolumn="48" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.mapper" class="ReservaMapper" method="toDTO" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getCancha` on foreign value `reserva` (degree 1)
+</violation>
+<violation beginline="33" endline="33" begincolumn="33" endcolumn="52" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.mapper" class="ReservaMapper" method="toDTO" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getCancha` on foreign value `reserva` (degree 1)
+</violation>
+<violation beginline="36" endline="36" begincolumn="17" endcolumn="36" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.mapper" class="ReservaMapper" method="toDTO" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getCancha` on foreign value `reserva` (degree 1)
+</violation>
+<violation beginline="37" endline="37" begincolumn="35" endcolumn="54" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.mapper" class="ReservaMapper" method="toDTO" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getCancha` on foreign value `reserva` (degree 1)
+</violation>
+<violation beginline="42" endline="42" begincolumn="17" endcolumn="36" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.mapper" class="ReservaMapper" method="toDTO" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getCancha` on foreign value `reserva` (degree 1)
+</violation>
+<violation beginline="43" endline="43" begincolumn="17" endcolumn="36" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.mapper" class="ReservaMapper" method="toDTO" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getCancha` on foreign value `reserva` (degree 1)
+</violation>
+<violation beginline="49" endline="49" begincolumn="34" endcolumn="54" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.mapper" class="ReservaMapper" method="toDTO" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getUsuario` on foreign value `reserva` (degree 1)
+</violation>
+<violation beginline="52" endline="52" begincolumn="30" endcolumn="50" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.mapper" class="ReservaMapper" method="toDTO" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getUsuario` on foreign value `reserva` (degree 1)
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\mapper\TurnoCajaMapper.java">
+<violation beginline="27" endline="27" begincolumn="31" endcolumn="46" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.mapper" class="TurnoCajaMapper" method="toDTO" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getCaja` on foreign value `turno` (degree 1)
+</violation>
+<violation beginline="30" endline="30" begincolumn="34" endcolumn="52" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.mapper" class="TurnoCajaMapper" method="toDTO" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getUsuario` on foreign value `turno` (degree 1)
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\mapper\VentaMapper.java">
+<violation beginline="43" endline="43" begincolumn="35" endcolumn="56" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.mapper" class="VentaMapper" method="detalleToDTO" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getProducto` on foreign value `detalle` (degree 1)
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\scheduler\ReservaScheduler.java">
+<violation beginline="23" endline="23" begincolumn="17" endcolumn="42" rule="CyclomaticComplexity" ruleset="Design" package="com.unas.grassbackend.scheduler" class="ReservaScheduler" method="actualizarEstadosReservas" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'actualizarEstadosReservas()' has a cyclomatic complexity of 10.
+</violation>
+<violation beginline="41" endline="41" begincolumn="17" endcolumn="23" rule="SystemPrintln" ruleset="Best Practices" package="com.unas.grassbackend.scheduler" class="ReservaScheduler" method="actualizarEstadosReservas" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+Usage of System.out/err
+</violation>
+<violation beginline="44" endline="44" begincolumn="74" endcolumn="114" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="com.unas.grassbackend.scheduler" class="ReservaScheduler" method="actualizarEstadosReservas" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="47" endline="47" begincolumn="17" endcolumn="23" rule="SystemPrintln" ruleset="Best Practices" package="com.unas.grassbackend.scheduler" class="ReservaScheduler" method="actualizarEstadosReservas" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+Usage of System.out/err
+</violation>
+<violation beginline="50" endline="50" begincolumn="74" endcolumn="113" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="com.unas.grassbackend.scheduler" class="ReservaScheduler" method="actualizarEstadosReservas" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="53" endline="53" begincolumn="17" endcolumn="23" rule="SystemPrintln" ruleset="Best Practices" package="com.unas.grassbackend.scheduler" class="ReservaScheduler" method="actualizarEstadosReservas" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+Usage of System.out/err
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\security\JwtUtil.java">
+<violation beginline="24" endline="24" begincolumn="30" endcolumn="40" rule="ReplaceJavaUtilDate" ruleset="Error Prone" package="com.unas.grassbackend.security" class="JwtUtil" method="generateToken" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_errorprone.html#replacejavautildate" priority="3">
+Usage of java.util.Date should be replaced with classes from java.time
+</violation>
+<violation beginline="25" endline="25" begincolumn="32" endcolumn="86" rule="ReplaceJavaUtilDate" ruleset="Error Prone" package="com.unas.grassbackend.security" class="JwtUtil" method="generateToken" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_errorprone.html#replacejavautildate" priority="3">
+Usage of java.util.Date should be replaced with classes from java.time
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\security\SedeContextHolder.java">
+<violation beginline="3" endline="3" begincolumn="8" endcolumn="13" rule="UseUtilityClass" ruleset="Design" package="com.unas.grassbackend.security" class="SedeContextHolder" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static. Consider adding a private no-args constructor to prevent instantiation.
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\security\SedeFilter.java">
+<violation beginline="24" endline="24" begincolumn="14" endcolumn="20" rule="SystemPrintln" ruleset="Best Practices" package="com.unas.grassbackend.security" class="SedeFilter" method="doFilterInternal" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+Usage of System.out/err
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\service\DashboardService.java">
+<violation beginline="28" endline="28" begincolumn="32" endcolumn="55" rule="NcssCount" ruleset="Design" package="com.unas.grassbackend.service" class="DashboardService" method="obtenerResumenDashboard" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'obtenerResumenDashboard(String)' has a NCSS line count of 86.
+</violation>
+<violation beginline="28" endline="28" begincolumn="32" endcolumn="55" rule="CognitiveComplexity" ruleset="Design" package="com.unas.grassbackend.service" class="DashboardService" method="obtenerResumenDashboard" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cognitivecomplexity" priority="3">
+The method 'obtenerResumenDashboard(String)' has a cognitive complexity of 25, current threshold is 15
+</violation>
+<violation beginline="28" endline="28" begincolumn="32" endcolumn="55" rule="CyclomaticComplexity" ruleset="Design" package="com.unas.grassbackend.service" class="DashboardService" method="obtenerResumenDashboard" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'obtenerResumenDashboard(String)' has a cyclomatic complexity of 27.
+</violation>
+<violation beginline="28" endline="28" begincolumn="32" endcolumn="55" rule="NPathComplexity" ruleset="Design" package="com.unas.grassbackend.service" class="DashboardService" method="obtenerResumenDashboard" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#npathcomplexity" priority="3">
+The method 'obtenerResumenDashboard(String)' has an NPath complexity of 24444, current threshold is 200
+</violation>
+<violation beginline="53" endline="53" begincolumn="29" endcolumn="35" rule="AvoidReassigningParameters" ruleset="Best Practices" package="com.unas.grassbackend.service" class="DashboardService" method="obtenerResumenDashboard" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_bestpractices.html#avoidreassigningparameters" priority="2">
+Avoid reassigning parameters such as 'filtro'
+</violation>
+<violation beginline="54" endline="54" begincolumn="36" endcolumn="56" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="com.unas.grassbackend.service" class="DashboardService" method="obtenerResumenDashboard" variable="filtroNormalizado" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="104" endline="104" begincolumn="53" endcolumn="80" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="com.unas.grassbackend.service" class="DashboardService" method="obtenerResumenDashboard" variable="estado" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="106" endline="106" begincolumn="34" endcolumn="61" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="com.unas.grassbackend.service" class="DashboardService" method="obtenerResumenDashboard" variable="esAprobada" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="107" endline="107" begincolumn="34" endcolumn="59" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="com.unas.grassbackend.service" class="DashboardService" method="obtenerResumenDashboard" variable="esAprobada" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="108" endline="108" begincolumn="34" endcolumn="61" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="com.unas.grassbackend.service" class="DashboardService" method="obtenerResumenDashboard" variable="esAprobada" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="109" endline="109" begincolumn="34" endcolumn="57" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="com.unas.grassbackend.service" class="DashboardService" method="obtenerResumenDashboard" variable="esAprobada" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="114" endline="114" begincolumn="48" endcolumn="63" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.service" class="DashboardService" method="obtenerResumenDashboard" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getAdelanto` on foreign value `r` (degree 1)
+</violation>
+<violation beginline="115" endline="115" begincolumn="38" endcolumn="53" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.service" class="DashboardService" method="obtenerResumenDashboard" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getAdelanto` on foreign value `r` (degree 1)
+</violation>
+<violation beginline="117" endline="117" begincolumn="38" endcolumn="50" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.service" class="DashboardService" method="obtenerResumenDashboard" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getTotal` on foreign value `r` (degree 1)
+</violation>
+<violation beginline="122" endline="122" begincolumn="17" endcolumn="43" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="com.unas.grassbackend.service" class="DashboardService" method="obtenerResumenDashboard" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="140" endline="140" begincolumn="29" endcolumn="56" rule="UseConcurrentHashMap" ruleset="Multithreading" package="com.unas.grassbackend.service" class="DashboardService" method="obtenerResumenDashboard" variable="respuesta" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_multithreading.html#useconcurrenthashmap" priority="3">
+If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\service\ReporteExcelService.java">
+<violation beginline="36" endline="36" begincolumn="23" endcolumn="39" rule="AvoidThrowingRawExceptionTypes" ruleset="Design" package="com.unas.grassbackend.service" class="ReporteExcelService" method="generarExcel" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#avoidthrowingrawexceptiontypes" priority="1">
+Avoid throwing raw exception type RuntimeException.
+</violation>
+<violation beginline="58" endline="58" begincolumn="43" endcolumn="51" rule="AssignmentInOperand" ruleset="Error Prone" package="com.unas.grassbackend.service" class="ReporteExcelService" method="crearHojaReservas" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_errorprone.html#assignmentinoperand" priority="3">
+Avoid assignment to rowIdx in operand
+</violation>
+<violation beginline="92" endline="92" begincolumn="56" endcolumn="65" rule="AvoidCatchingGenericException" ruleset="Design" package="com.unas.grassbackend.service" class="ReporteExcelService" method="obtenerDouble" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#avoidcatchinggenericexception" priority="3">
+Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+</violation>
+<violation beginline="95" endline="95" begincolumn="43" endcolumn="51" rule="UnusedFormalParameter" ruleset="Best Practices" package="com.unas.grassbackend.service" class="ReporteExcelService" method="crearHojaTienda" variable="workbook" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'workbook'.
+</violation>
+<violation beginline="95" endline="95" begincolumn="63" endcolumn="74" rule="UnusedFormalParameter" ruleset="Best Practices" package="com.unas.grassbackend.service" class="ReporteExcelService" method="crearHojaTienda" variable="headerStyle" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'headerStyle'.
+</violation>
+<violation beginline="95" endline="95" begincolumn="102" endcolumn="108" rule="UnusedFormalParameter" ruleset="Best Practices" package="com.unas.grassbackend.service" class="ReporteExcelService" method="crearHojaTienda" variable="ventas" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'ventas'.
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\service\ReservaServiceImpl.java">
+<violation beginline="58" endline="58" begincolumn="35" endcolumn="43" rule="AvoidDuplicateLiterals" ruleset="Error Prone" package="com.unas.grassbackend.service" class="ReservaServiceImpl" method="listarTodas" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "GLOBAL" appears 5 times in this file; the first occurrence is on line 58
+</violation>
+<violation beginline="79" endline="79" begincolumn="20" endcolumn="35" rule="CyclomaticComplexity" ruleset="Design" package="com.unas.grassbackend.service" class="ReservaServiceImpl" method="realizarReserva" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'realizarReserva(Reserva)' has a cyclomatic complexity of 16.
+</violation>
+<violation beginline="80" endline="80" begincolumn="13" endcolumn="36" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.service" class="ReservaServiceImpl" method="realizarReserva" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getHoraInicio` on foreign value `reserva` (degree 1)
+</violation>
+<violation beginline="81" endline="81" begincolumn="23" endcolumn="39" rule="AvoidThrowingRawExceptionTypes" ruleset="Design" package="com.unas.grassbackend.service" class="ReservaServiceImpl" method="realizarReserva" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#avoidthrowingrawexceptiontypes" priority="1">
+Avoid throwing raw exception type RuntimeException.
+</violation>
+<violation beginline="87" endline="87" begincolumn="23" endcolumn="46" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.service" class="ReservaServiceImpl" method="realizarReserva" variable="inicioH" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getHoraInicio` on foreign value `reserva` (degree 1)
+</violation>
+<violation beginline="88" endline="88" begincolumn="20" endcolumn="40" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.service" class="ReservaServiceImpl" method="realizarReserva" variable="finH" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getHoraFin` on foreign value `reserva` (degree 1)
+</violation>
+<violation beginline="89" endline="89" begincolumn="20" endcolumn="40" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.service" class="ReservaServiceImpl" method="realizarReserva" variable="finM" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getHoraFin` on foreign value `reserva` (degree 1)
+</violation>
+<violation beginline="92" endline="92" begincolumn="23" endcolumn="39" rule="AvoidThrowingRawExceptionTypes" ruleset="Design" package="com.unas.grassbackend.service" class="ReservaServiceImpl" method="realizarReserva" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#avoidthrowingrawexceptiontypes" priority="1">
+Avoid throwing raw exception type RuntimeException.
+</violation>
+<violation beginline="96" endline="96" begincolumn="17" endcolumn="36" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.service" class="ReservaServiceImpl" method="realizarReserva" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getCancha` on foreign value `reserva` (degree 1)
+</violation>
+<violation beginline="102" endline="102" begincolumn="23" endcolumn="39" rule="AvoidThrowingRawExceptionTypes" ruleset="Design" package="com.unas.grassbackend.service" class="ReservaServiceImpl" method="realizarReserva" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#avoidthrowingrawexceptiontypes" priority="1">
+Avoid throwing raw exception type RuntimeException.
+</violation>
+<violation beginline="105" endline="105" begincolumn="51" endcolumn="70" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.service" class="ReservaServiceImpl" method="realizarReserva" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getCancha` on foreign value `reserva` (degree 1)
+</violation>
+<violation beginline="108" endline="108" begincolumn="14" endcolumn="63" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="com.unas.grassbackend.service" class="ReservaServiceImpl" method="realizarReserva" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="109" endline="109" begincolumn="23" endcolumn="39" rule="AvoidThrowingRawExceptionTypes" ruleset="Design" package="com.unas.grassbackend.service" class="ReservaServiceImpl" method="realizarReserva" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#avoidthrowingrawexceptiontypes" priority="1">
+Avoid throwing raw exception type RuntimeException.
+</violation>
+<violation beginline="114" endline="114" begincolumn="23" endcolumn="25" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="com.unas.grassbackend.service" class="ReservaServiceImpl" method="realizarReserva" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using literals such as 60 in if statements
+</violation>
+<violation beginline="115" endline="115" begincolumn="23" endcolumn="39" rule="AvoidThrowingRawExceptionTypes" ruleset="Design" package="com.unas.grassbackend.service" class="ReservaServiceImpl" method="realizarReserva" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#avoidthrowingrawexceptiontypes" priority="1">
+Avoid throwing raw exception type RuntimeException.
+</violation>
+<violation beginline="121" endline="121" begincolumn="13" endcolumn="36" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.service" class="ReservaServiceImpl" method="realizarReserva" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getHoraInicio` on foreign value `reserva` (degree 1)
+</violation>
+<violation beginline="121" endline="121" begincolumn="50" endcolumn="52" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="com.unas.grassbackend.service" class="ReservaServiceImpl" method="realizarReserva" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using literals such as 18 in if statements
+</violation>
+<violation beginline="143" endline="143" begincolumn="23" endcolumn="39" rule="AvoidThrowingRawExceptionTypes" ruleset="Design" package="com.unas.grassbackend.service" class="ReservaServiceImpl" method="aprobarReserva" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#avoidthrowingrawexceptiontypes" priority="1">
+Avoid throwing raw exception type RuntimeException.
+</violation>
+<violation beginline="153" endline="153" begincolumn="20" endcolumn="33" rule="CyclomaticComplexity" ruleset="Design" package="com.unas.grassbackend.service" class="ReservaServiceImpl" method="completarPago" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'completarPago(UUID, String, BigDecimal, String, String)' has a cyclomatic complexity of 10.
+</violation>
+<violation beginline="160" endline="160" begincolumn="23" endcolumn="27" rule="UnusedAssignment" ruleset="Best Practices" package="com.unas.grassbackend.service" class="ReservaServiceImpl" method="completarPago" variable="idSede" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The initializer for variable 'idSede' is never used (overwritten on lines 164 and 169)
+</violation>
+<violation beginline="163" endline="163" begincolumn="48" endcolumn="67" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.service" class="ReservaServiceImpl" method="completarPago" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getCancha` on foreign value `reserva` (degree 1)
+</violation>
+<violation beginline="164" endline="164" begincolumn="23" endcolumn="42" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.service" class="ReservaServiceImpl" method="completarPago" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getCancha` on foreign value `reserva` (degree 1)
+</violation>
+<violation beginline="166" endline="166" begincolumn="27" endcolumn="43" rule="AvoidThrowingRawExceptionTypes" ruleset="Design" package="com.unas.grassbackend.service" class="ReservaServiceImpl" method="completarPago" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#avoidthrowingrawexceptiontypes" priority="1">
+Avoid throwing raw exception type RuntimeException.
+</violation>
+<violation beginline="203" endline="203" begincolumn="69" endcolumn="90" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.service" class="ReservaServiceImpl" method="completarPago" variable="adelantoActual" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getAdelanto` on foreign value `reserva` (degree 1)
+</violation>
+<violation beginline="222" endline="222" begincolumn="63" endcolumn="84" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.service" class="ReservaServiceImpl" method="cancelarReserva" variable="adelanto" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getAdelanto` on foreign value `reserva` (degree 1)
+</violation>
+<violation beginline="227" endline="227" begincolumn="27" endcolumn="31" rule="UnusedAssignment" ruleset="Best Practices" package="com.unas.grassbackend.service" class="ReservaServiceImpl" method="cancelarReserva" variable="idSede" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The initializer for variable 'idSede' is never used (overwritten on lines 231 and 236)
+</violation>
+<violation beginline="230" endline="230" begincolumn="52" endcolumn="71" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.service" class="ReservaServiceImpl" method="cancelarReserva" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getCancha` on foreign value `reserva` (degree 1)
+</violation>
+<violation beginline="231" endline="231" begincolumn="30" endcolumn="49" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.service" class="ReservaServiceImpl" method="cancelarReserva" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getCancha` on foreign value `reserva` (degree 1)
+</violation>
+<violation beginline="233" endline="233" begincolumn="31" endcolumn="47" rule="AvoidThrowingRawExceptionTypes" ruleset="Design" package="com.unas.grassbackend.service" class="ReservaServiceImpl" method="cancelarReserva" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#avoidthrowingrawexceptiontypes" priority="1">
+Avoid throwing raw exception type RuntimeException.
+</violation>
+<violation beginline="278" endline="278" begincolumn="41" endcolumn="68" rule="CognitiveComplexity" ruleset="Design" package="com.unas.grassbackend.service" class="ReservaServiceImpl" method="obtenerFidelizacionClientes" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cognitivecomplexity" priority="3">
+The method 'obtenerFidelizacionClientes()' has a cognitive complexity of 22, current threshold is 15
+</violation>
+<violation beginline="278" endline="278" begincolumn="41" endcolumn="68" rule="CyclomaticComplexity" ruleset="Design" package="com.unas.grassbackend.service" class="ReservaServiceImpl" method="obtenerFidelizacionClientes" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'obtenerFidelizacionClientes()' has a cyclomatic complexity of 10.
+</violation>
+<violation beginline="297" endline="297" begincolumn="30" endcolumn="71" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="com.unas.grassbackend.service" class="ReservaServiceImpl" method="obtenerFidelizacionClientes" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="310" endline="310" begincolumn="58" endcolumn="79" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.service" class="ReservaServiceImpl" method="obtenerFidelizacionClientes" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getUsuario` on foreign value `dataBase` (degree 1)
+</violation>
+<violation beginline="327" endline="327" begincolumn="29" endcolumn="31" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="com.unas.grassbackend.service" class="ReservaServiceImpl" method="obtenerFidelizacionClientes" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using literals such as 15 in if statements
+</violation>
+<violation beginline="328" endline="328" begincolumn="34" endcolumn="36" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="com.unas.grassbackend.service" class="ReservaServiceImpl" method="obtenerFidelizacionClientes" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using literals such as 10 in if statements
+</violation>
+<violation beginline="329" endline="329" begincolumn="34" endcolumn="35" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="com.unas.grassbackend.service" class="ReservaServiceImpl" method="obtenerFidelizacionClientes" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using literals such as 5 in if statements
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\service\TurnoCajaServiceImpl.java">
+<violation beginline="45" endline="45" begincolumn="23" endcolumn="39" rule="AvoidThrowingRawExceptionTypes" ruleset="Design" package="com.unas.grassbackend.service" class="TurnoCajaServiceImpl" method="abrirTurno" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#avoidthrowingrawexceptiontypes" priority="1">
+Avoid throwing raw exception type RuntimeException.
+</violation>
+<violation beginline="66" endline="66" begincolumn="13" endcolumn="22" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="com.unas.grassbackend.service" class="TurnoCajaServiceImpl" method="cerrarTurno" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using literals such as "CERRADO" in if statements
+</violation>
+<violation beginline="67" endline="67" begincolumn="23" endcolumn="39" rule="AvoidThrowingRawExceptionTypes" ruleset="Design" package="com.unas.grassbackend.service" class="TurnoCajaServiceImpl" method="cerrarTurno" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#avoidthrowingrawexceptiontypes" priority="1">
+Avoid throwing raw exception type RuntimeException.
+</violation>
+<violation beginline="78" endline="78" begincolumn="17" endcolumn="26" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="com.unas.grassbackend.service" class="TurnoCajaServiceImpl" method="cerrarTurno" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using literals such as "INGRESO" in if statements
+</violation>
+<violation beginline="80" endline="80" begincolumn="24" endcolumn="32" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="com.unas.grassbackend.service" class="TurnoCajaServiceImpl" method="cerrarTurno" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using literals such as "EGRESO" in if statements
+</violation>
+<violation beginline="86" endline="86" begincolumn="45" endcolumn="87" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.service" class="TurnoCajaServiceImpl" method="cerrarTurno" variable="montoCalculadoEsperado" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `add` on foreign value `turno.getMontoInicial()` (degree 2)
+</violation>
+<violation beginline="86" endline="86" begincolumn="45" endcolumn="68" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.service" class="TurnoCajaServiceImpl" method="cerrarTurno" variable="montoCalculadoEsperado" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getMontoInicial` on foreign value `turno` (degree 1)
+</violation>
+</file>
+<file name="D:\Universidad\Apuntes\Apuntes\Octavo ciclo\Calidad de producto de Software\Proyetco\Proyecto Grass\grass-potokar-backend\src\main\java\com\unas\grassbackend\service\VentaServiceImpl.java">
+<violation beginline="68" endline="68" begincolumn="18" endcolumn="31" rule="CyclomaticComplexity" ruleset="Design" package="com.unas.grassbackend.service" class="VentaServiceImpl" method="realizarVenta" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'realizarVenta(Venta)' has a cyclomatic complexity of 13.
+</violation>
+<violation beginline="72" endline="72" begincolumn="23" endcolumn="39" rule="AvoidThrowingRawExceptionTypes" ruleset="Design" package="com.unas.grassbackend.service" class="VentaServiceImpl" method="realizarVenta" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#avoidthrowingrawexceptiontypes" priority="1">
+Avoid throwing raw exception type RuntimeException.
+</violation>
+<violation beginline="89" endline="89" begincolumn="23" endcolumn="39" rule="AvoidThrowingRawExceptionTypes" ruleset="Design" package="com.unas.grassbackend.service" class="VentaServiceImpl" method="realizarVenta" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#avoidthrowingrawexceptiontypes" priority="1">
+Avoid throwing raw exception type RuntimeException.
+</violation>
+<violation beginline="95" endline="95" begincolumn="63" endcolumn="84" rule="LawOfDemeter" ruleset="Design" package="com.unas.grassbackend.service" class="VentaServiceImpl" method="realizarVenta" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Call to `getProducto` on foreign value `detalle` (degree 1)
+</violation>
+<violation beginline="99" endline="99" begincolumn="27" endcolumn="43" rule="AvoidThrowingRawExceptionTypes" ruleset="Design" package="com.unas.grassbackend.service" class="VentaServiceImpl" method="realizarVenta" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#avoidthrowingrawexceptiontypes" priority="1">
+Avoid throwing raw exception type RuntimeException.
+</violation>
+</file>
+<configerror rule="LoosePackageCoupling" msg="No packages or classes specified"/>
+</pmd>

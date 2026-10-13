@@ -1,0 +1,48 @@
+name: Análisis estático (SonarCloud + PMD/Checkstyle/SpotBugs)
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  static-analysis:
+    name: Análisis de calidad de código
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+          cache: maven
+
+      - name: Compilar + cobertura JaCoCo
+        run: mvn -B verify -DskipITs
+
+      - name: Herramientas complementarias (PMD / Checkstyle / SpotBugs)
+        if: always()
+        run: mvn -B pmd:pmd pmd:cpd checkstyle:checkstyle spotbugs:check -DskipTests
+
+      - name: SonarCloud Scan
+        run: mvn -B sonar:sonar -Dsonar.token=${{ secrets.SONAR_TOKEN }}
+
+      - name: Subir reportes como artefactos
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: static-analysis-reports
+          path: |
+            target/site/pmd/
+            target/site/checkstyle.html
+            target/site/spotbugs.html
+            target/site/jacoco/
+            target/sonar/
+          retention-days: 30
