@@ -34,7 +34,7 @@
 		<spotbugs.plugin.version>4.10.5.0</spotbugs.plugin.version>
 		<spotbugs.version>4.9.6</spotbugs.version>
 		<jacoco.plugin.version>0.8.13</jacoco.plugin.version>
-		<sonar.maven.plugin.version>3.9.1.2184</sonar.maven.plugin.version>
+		<sonar.maven.plugin.version>5.8.0.7211</sonar.maven.plugin.version>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 		<sonar.organization>analizelaya</sonar.organization>
 		<sonar.projectKey>AnaliZelaya_Gestion_Grass_Sintetico</sonar.projectKey>
